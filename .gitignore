@@ -1,3 +1,14 @@
 .venv/
 .vscode/
 .ipynb_checkpoints/
+
+# Local authentication, downloaded data, and executed artifacts
+.env
+.env.*
+.local/
+reports/
+data/
+.cache/
+__pycache__/
+.pytest_cache/
+*.egg-info/
